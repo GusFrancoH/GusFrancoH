@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,300;0,700;1,300;1,700&display=swap');
+@import url("https://use.fontawesome.com/releases/v6.4.2/css/all.css");
+body {
+  background-color: #B6FFFA;
+  line-height: 1.5;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.card-pastel-yellow {
+  background-color: #ffecb6;
+  text-align: center;
+  box-shadow: 1px 1px 2px black;
+  border-radius: 25px;
+  padding-bottom: 20px;
+}
+
+h1 {
+  font-family: Raleway;
+  font-size: 40px;
+  color: #900C3F;
+}
+
+h2 {
+  font-family: Raleway;
+  font-size: 24px;
+  color: #1E5128;
+}
+
+p {
+  font-family: "PT Serif Caption";
+  font-size: 18px;
+  color: #1E5128;
+}
+
+.button-dark {
+  color: #FFEBEB;
+  background-color: #404258;
+  padding: 20px;
+  border: 2px solid #B6FFFA;
+  border-radius: 25px;
+  display: inline-block;
+  box-shadow: 1px 1px 2px black;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button-dark:hover {
+  color: #404258;
+  background-color: #B6FFFA;
+  border-color: #900C3F;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  margin: 0px 30px 0 30px;
+}
+
+i {
+  color: #900C3F;
+  font-size: 50px;
+}
+
+
+#img-rnd {
+  border-radius: 50%;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 600px;
+    }
+  }
+
+  @media (max-width: 720px) {
+    .container {
+      width: 500px;
+      }
+    }
+
+    @media (max-width: 540px) {
+      .container {
+        width: 300px;
+        }
+      }
